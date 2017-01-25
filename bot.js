@@ -47,6 +47,7 @@ function replyTweet(event) {
 		// fs.writeFile("tweet.json",json);
 
 	var replyTo = event.in_reply_to_screen_name;
+	console.log(replyTo);
 	var from    = event.user.screen_name;				
 	var fName   =event.user.name;
 	if(replyTo==="swapnil0400"){
