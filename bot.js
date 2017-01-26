@@ -48,8 +48,8 @@ function replyTweet(event) {
 		var from    = event.user.screen_name;				
 		var fName   =event.user.name;
 
-		if(tweetTo==="swapnil0400"){
-		tweetToTwitter('@'+from+" Hey "+fName+" Thank you for tweeting #"+ Math.floor(Math.random()*20)+ "checkout my website: http://thetechinvo.com/");
+		if(tweetTo==="your twitter_user_name"){
+		tweetToTwitter('@'+from+" Hey "+fName+" Thank you for tweeting #"+ Math.floor(Math.random()*20));
 		}
 	
 
