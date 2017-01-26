@@ -49,7 +49,7 @@ function replyTweet(event) {
 		var fName   =event.user.name;
 
 		if(tweetTo==="swapnil0400"){
-		tweetToTwitter('@'+from+" Hey "+fName+" Thank you for tweeting #"+ Math.floor(Math.random())+ "checkout my website: www.thetechinvo.com");
+		tweetToTwitter('@'+from+" Hey "+fName+" Thank you for tweeting #"+ Math.floor(Math.random()*20)+ "checkout my website: www.thetechinvo.com");
 		}
 	
 
